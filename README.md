@@ -14,7 +14,7 @@ Docker['https://www.docker.com'] (to run the app in a container)
 
 ### 1. Copy the Docker Image (Optional)
 Pull docker image from this URL to local machine
-docker pull <your-docker-repository>/receipt-processor
+docker pull ghcr.io/prasanna-sasne/receipt-processor:latest
 
 ### 2. Build the Docker Image
 If you have the source code locally and need to build the Docker image, follow these steps:
